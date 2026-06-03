@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  font-family: var(--font-geist-sans);
+}
+
+/* OPN Pulse custom styles - dark, high contrast, builder feel */
+.card {
+  @apply bg-zinc-900 border border-zinc-800 rounded-2xl p-6 transition-all hover:border-zinc-700;
+}
+
+.stat {
+  @apply bg-zinc-950 border border-zinc-800 rounded-xl p-4;
+}
+
+.btn-primary {
+  @apply bg-white text-black font-medium px-6 py-3 rounded-xl hover:bg-zinc-200 active:scale-[0.985] transition-all flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.btn-secondary {
+  @apply bg-zinc-900 border border-zinc-700 text-white font-medium px-5 py-2.5 rounded-xl hover:bg-zinc-800 active:scale-[0.985] transition-all flex items-center justify-center gap-2 disabled:opacity-50;
+}
+
+.btn-ghost {
+  @apply text-zinc-400 hover:text-white px-4 py-2 rounded-lg hover:bg-zinc-900 transition-colors;
+}
+
+.input {
+  @apply bg-zinc-950 border border-zinc-800 focus:border-zinc-600 rounded-xl px-4 py-3 text-lg outline-none w-full placeholder:text-zinc-600;
+}
+
+.live-dot {
+  @apply w-2 h-2 bg-emerald-500 rounded-full animate-pulse;
+}
+
+.harvest-btn {
+  @apply bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-lg px-8 py-4 rounded-2xl shadow-lg shadow-emerald-950/50 active:scale-[0.985] transition-all disabled:opacity-60 flex items-center justify-center gap-3;
+}
+
+.section-title {
+  @apply text-sm font-mono uppercase tracking-[3px] text-zinc-500 mb-3;
+}
+
+.mono {
+  font-family: var(--font-geist-mono);
+}
