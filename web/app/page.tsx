@@ -368,7 +368,7 @@ export default function OPNPulseYieldOptimizer() {
             <div><span className="font-medium text-white">25% Technical Quality</span><br/>Clean ERC4626 + strategy pattern, real-time on-chain accounting, permissionless actions, full test coverage.</div>
             <div><span className="font-medium text-white">20% Product & UX + 15% Innovation</span><br/>Beautiful live dashboard, one-click harvest that anyone can call, clear "why OPN" story that judges will love.</div>
           </div>
-          <div className="text-[11px] mt-6 text-zinc-400 border-t border-zinc-800 pt-4">After you deploy, generate 20–40+ on-chain interactions (deposits + harvests), take screenshots of the live UI + explorer, then submit at builders.iopn.tech with a link to your GitHub fork of this project.</div>
+          <div className="text-[11px] mt-6 text-zinc-400 border-t border-zinc-800 pt-4"> </div>
         </div>
 
         <div className="text-center text-[10px] text-zinc-500 mt-12 pb-10 font-mono">ONE CHAIN. ONE IDENTITY. FULLY SOVEREIGN. • Accelerate ⋂</div>
